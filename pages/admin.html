@@ -18,7 +18,7 @@
 <body>
     <div class="d-flex">
         <!-- 左側 -->
-        <div class="adminNav d-flex flex-column bg-light p-5 justify-content-between lh-base vh-100 min-vw-24">
+        <div class="d-flex flex-column bg-light p-5 justify-content-between lh-base vh-100 min-vw-24">
             <!-- 左側上半 -->
             <div class="d-flex flex-column">
                 <img class="mb-5"
@@ -113,9 +113,14 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">ID<span class="material-icons">
-                                    arrow_downward
-                                </span></th>
+                            <th scope="col">
+                                <div class="d-flex align-items-center">
+                                    <p>ID</p>
+                                    <span class="material-icons">
+                                        arrow_downward
+                                    </span>
+                                </div>
+                            </th>
                             <th scope="col">First</th>
                             <th scope="col">Last</th>
                             <th scope="col">Handle</th>
