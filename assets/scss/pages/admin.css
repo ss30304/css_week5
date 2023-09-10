@@ -1,4 +1,9 @@
 .headshot {
   width: 40px;
   height: 40px;
+}
+
+.nav {
+  min-width: 296px;
+  min-height: 100vh;
 }/*# sourceMappingURL=admin.css.map */
