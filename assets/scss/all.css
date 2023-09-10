@@ -1,4 +1,17 @@
 .headshot {
-  width: 40px;
-  height: 40px;
-}/*# sourceMappingURL=all.css.map */
+    width: 40px;
+    height: 40px;
+}
+
+.admin::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-left: 5px solid #198754;
+    transform: -48px;
+}
+
+
+/*# sourceMappingURL=all.css.map */

@@ -6,7 +6,9 @@
 .admin::after {
   content: "";
   position: absolute;
+  top: 0;
   left: 0;
   height: 100%;
   border-left: 5px solid #198754;
+  transform: -48px;
 }/*# sourceMappingURL=admin.css.map */
